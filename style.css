@@ -2,3 +2,55 @@
     margin: 0;
     padding: 0;
 }
+body{
+    color:white;
+    background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+#form{
+    width: 400px;
+    margin:20vh auto 0 auto;
+    background-color: black;
+    border-radius:5px;
+    padding:30px;
+}
+h1{
+    text-align: center;
+}
+#form button{
+    background-color: white;
+    color:black;
+    border:1px solid white;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px 0px;
+    cursor:pointer;
+    font-size:20px;
+    width:100%;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-group input{
+    border-radius: 5px;
+    font-size:20px;
+    margin-top:5px;
+    padding:10px;
+    border:1px solid rgba(238, 174, 202, 1);
+}
+.input-group input:focus{
+    outline:0;
+}
+.error{
+    color:red;
+    font-size:16px;
+    margin-top:5px;
+}
+.input-group.success input{
+    border-color: green;
+}
+.input-group.error input{
+    border-color:red;
+}
